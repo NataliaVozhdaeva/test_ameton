@@ -78,7 +78,8 @@
   cursor: pointer;
 }
 
-.link {
+.link,
+.btn {
   display: flex;
 
   transition: 0.3s;
@@ -90,11 +91,21 @@
   font-weight: 700;
 }
 
+.section-title {
+  font-size: 40px;
+  font-weight: 600;
+}
+
 .text {
   margin: 0;
 
   font-weight: 500;
   line-height: 140%;
+}
+
+.btn {
+  border: none;
+  background-color: var(--main-white);
 }
 
 .header {
@@ -123,7 +134,7 @@
   margin-bottom: 40px;
   width: 535px;
 
-  font-family: Museo Sans Cyrl;
+  font-family: 'Museo Sans Cyrl';
   font-size: 17px;
   color: var(--main-white);
   text-align: center;
@@ -171,7 +182,7 @@
   grid-row: 1/2;
   grid-column: 1/2;
 
-  font-family: Museo Sans Cyrl;
+  font-family: 'Museo Sans Cyrl';
   font-size: 15px;
   font-weight: 600;
   line-height: 120%;
@@ -183,8 +194,7 @@
 
   margin-top: 2px;
 
-  font-family: Museo Sans Cyrl;
-  font-size: 40px;
+  font-family: 'Museo Sans Cyrl';
 }
 
 .community {
@@ -194,6 +204,8 @@
   grid-row: 1/3;
   grid-column: 2/2;
   justify-self: end;
+
+  margin-top: 13px;
 }
 
 .community-item {
@@ -203,4 +215,106 @@
 
 .community-item:hover {
   filter: brightness(90%);
+}
+
+.faq-wrapper {
+  position: relative;
+
+  margin-bottom: 80px;
+}
+
+.faq-container {
+  position: relative;
+
+  max-width: 100%;
+  overflow-x: hidden;
+}
+
+.faq {
+  gap: 24px;
+  transition: 2s;
+}
+
+.faq-title {
+  margin-bottom: 34px;
+  padding-top: 3px;
+
+  text-align: center;
+}
+
+.faq-item {
+  flex-shrink: 0;
+
+  width: 282px;
+  height: 160px;
+  padding: 16px;
+
+  box-shadow: 0px 0px 30px 0px rgba(0, 0, 0, 0.05);
+  border-radius: 16px;
+}
+
+.faq-link {
+  gap: 12px;
+}
+
+.text-wrapper {
+  display: flex;
+  flex-direction: column;
+  gap: 8px;
+}
+
+.list-title {
+  font-family: 'Museo Sans Cyrl';
+  font-size: 20px;
+  font-weight: 700;
+  line-height: 120%;
+}
+
+.faq-text {
+  font-family: 'Museo Sans Cyrl';
+  font-size: 15px;
+  line-height: 140%;
+  color: var(--text-gray);
+}
+
+.faq-img {
+  margin-top: -16px;
+  margin-right: -16px;
+}
+
+.faq-btn {
+  position: absolute;
+  bottom: 58px;
+
+  display: flex;
+  align-items: center;
+  justify-content: center;
+
+  width: 44px;
+  height: 44px;
+  padding: 10px;
+
+  border-radius: 50%;
+  filter: drop-shadow(0px 1px 7px rgba(0, 0, 0, 0.09));
+  transform: scale(1);
+  cursor: pointer;
+  transition: 0.7s;
+}
+
+.faq-btn:hover {
+  background-color: var(--main-green);
+}
+
+.faq-btn:disabled {
+  transform: scale(0);
+}
+
+.faq-btn_next {
+  right: 0;
+}
+
+.faq-btn_prev {
+  left: 0;
+
+  transform: rotate(180deg);
 }

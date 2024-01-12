@@ -27,7 +27,7 @@
           </a>
         </li>
         <li class="list-item contacts-item">
-          <a href="" class="link contacts-link">
+          <a href="tel:3223322" class="link contacts-link">
             <svg width="14" height="14">
               <use href="#call" fill="#09ac1e"></use>
             </svg>
@@ -35,7 +35,7 @@
           </a>
         </li>
         <li class="list-item contacts-item">
-          <a href="" class="link contacts-link">
+          <a href="mailto:email@example.com" class="link contacts-link">
             <svg width="14" height="14">
               <use href="#mail" fill="#09ac1e"></use>
             </svg>
@@ -101,49 +101,77 @@
       </ul>
     </aside>
     <main class="main">
-      <section class="faq">
-        <h2 class="title section-title">Часто задаваемые вопросы</h2>
-        <ul class="list faq">
-          <li class="list-item faq-item">
-            <a href="" class="link faq-link">
-              <h4 class="title list-title">Где работает доставка?</h4>
-              <p class="text faq-text"></p>
-              <img src="./assets/content/delivery.png" alt="карта районов доставки" class="faq-img" />
-            </a>
-          </li>
-          <li class="list-item faq-item">
-            <a href="" class="link faq-link">
-              <h4 class="title list-title">Где работает доставка?</h4>
-              <p class="text faq-text">Карта лояльности с вашим номером покупателя. Это карта лояльности с вашим</p>
-            </a>
-          </li>
-          <li class="list-item faq-item">
-            <a href="" class="link faq-link">
-              <h4 class="title list-title">Где работает доставка?</h4>
-              <p class="text faq-text">Карта лояльности с вашим номером</p>
-              <img src="./assets/content/delivery.png" alt="фото доставщика" class="faq-img" />
-            </a>
-          </li>
-          <li class="list-item faq-item">
-            <a href="" class="link faq-link">
-              <h4 class="title list-title">В какое время возможен самовывоз В какое время возможен самовывоз?</h4>
-              <p class="text faq-text">Карта лояльности с вашим</p>
-            </a>
-          </li>
-          <li class="list-item faq-item">
-            <a href="" class="link faq-link">
-              <h4 class="title list-title"></h4>
-              <p class="text faq-text">В какое время возможен самовывоз?</p>
-              <img src="./assets/content/delivery.png" alt="фото пункта выдачи" class="faq-img" />
-            </a>
-          </li>
-          <li class="list-item faq-item">
-            <a href="" class="link faq-link">
-              <h4 class="title list-title">В какое время возможен самовывоз В какое время возможен самовывоз?</h4>
-              <p class="text faq-text">Карта лояльности с вашим номером покупателя. Это карта лояльности с вашим</p>
-            </a>
-          </li>
-        </ul>
+      <section class="faq-wrapper">
+        <h2 class="title section-title faq-title">Часто задаваемые вопросы</h2>
+        <div class="faq-container">
+          <ul class="list faq">
+            <li class="list-item faq-item">
+              <a href="" class="link faq-link">
+                <div class="text-wrapper">
+                  <h4 class="title list-title">Где работает доставка?</h4>
+                  <p class="text faq-text"></p>
+                </div>
+                <img src="./assets/content/delivery.png" alt="карта районов доставки" class="faq-img" />
+              </a>
+            </li>
+            <li class="list-item faq-item">
+              <a href="" class="link faq-link">
+                <div class="text-wrapper">
+                  <h4 class="title list-title">Где работает доставка?</h4>
+                  <p class="text faq-text">
+                    Карта лояльности с&nbsp;вашим номером покупателя. Это карта лояльности с&nbsp;вашим
+                  </p>
+                </div>
+              </a>
+            </li>
+            <li class="list-item faq-item">
+              <a href="" class="link faq-link">
+                <div class="text-wrapper">
+                  <h4 class="title list-title">Где работает доставка?</h4>
+                  <p class="text faq-text">Карта лояльности с&nbsp;вашим номером</p>
+                </div>
+                <img src="./assets/content/delivery.png" alt="фото доставщика" class="faq-img" />
+              </a>
+            </li>
+            <li class="list-item faq-item">
+              <a href="" class="link faq-link">
+                <div class="text-wrapper">
+                  <h4 class="title list-title">В какое время возможен самовывоз В какое время возможен самовывоз?</h4>
+                  <p class="text faq-text">Карта лояльности с&nbsp;вашим</p>
+                </div>
+              </a>
+            </li>
+            <li class="list-item faq-item">
+              <a href="" class="link faq-link">
+                <div class="text-wrapper">
+                  <h4 class="title list-title">В какое время возможен самовывоз?</h4>
+                  <p class="text faq-text">В какое время возможен самовывоз?</p>
+                </div>
+                <img src="./assets/content/delivery.png" alt="фото пункта выдачи" class="faq-img" />
+              </a>
+            </li>
+            <li class="list-item faq-item">
+              <a href="" class="link faq-link">
+                <div class="text-wrapper">
+                  <h4 class="title list-title">В какое время возможен самовывоз?</h4>
+                  <p class="text faq-text">
+                    Карта лояльности с&nbsp;вашим номером покупателя. Это карта лояльности с&nbsp;вашим
+                  </p>
+                </div>
+              </a>
+            </li>
+          </ul>
+        </div>
+        <button class="btn faq-btn faq-btn_prev" disabled>
+          <svg width="24" height="24">
+            <use href="#arrow" fill="#09ac1e"></use>
+          </svg>
+        </button>
+        <button class="btn faq-btn faq-btn_next">
+          <svg width="24" height="24">
+            <use href="#arrow" fill="#09ac1e"></use>
+          </svg>
+        </button>
       </section>
       <section class="reference">
         <h2 class="title section-title">Справка</h2>
@@ -151,7 +179,7 @@
           <li class="list-item reference-item">
             <details>
               <summary class="title list-title"><h4 class="title list-title">Бережная сборка</h4></summary>
-              Это карта лояльности с вашим номером покупат Это карта лояльности с вашим номером покупателя
+              Это карта лояльности с&nbsp;вашим номером покупат Это карта лояльности с&nbsp;вашим номером покупателя
             </details>
           </li>
           <li class="list-item reference-item">
@@ -159,19 +187,19 @@
               <summary class="title list-title">
                 <h4 class="title list-title">Способы доставки и самовывоза</h4>
               </summary>
-              Это карта лояльности с вашим номером покупат Это карта лояльности с вашим номером покупателя
+              Это карта лояльности с&nbsp;вашим номером покупат Это карта лояльности с&nbsp;вашим номером покупателя
             </details>
           </li>
           <li class="list-item reference-item">
             <details>
               <summary class="title list-title"><h4 class="title list-title">Минимальная сумма заказа</h4></summary>
-              Это карта лояльности с вашим номером покупат Это карта лояльности с вашим номером покупателя
+              Это карта лояльности с&nbsp;вашим номером покупат Это карта лояльности с&nbsp;вашим номером покупателя
             </details>
           </li>
           <li class="list-item reference-item">
             <details>
               <summary class="title list-title"><h4 class="title list-title">Лёгкий возврат</h4></summary>
-              Это карта лояльности с вашим номером покупат Это карта лояльности с вашим номером покупателя
+              Это карта лояльности с&nbsp;вашим номером покупат Это карта лояльности с&nbsp;вашим номером покупателя
             </details>
           </li>
         </ul>
@@ -179,6 +207,7 @@
     </main>
     <footer class="footer"></footer>
   </body>
+  <script src="script.js"></script>
   <svg style="display: none">
     <symbol id="feedback" viewBox="0 0 16 15">
       <path
@@ -329,7 +358,7 @@
         fill="#36ba5f" />
     </symbol>
 
-    <symbol id="arrow" viewBox="0 0 56 56">
+    <symbol id="arrow" viewBox="0 0 24 24">
       <path
         d="M9.29 6.70999C8.9 7.09999 8.9 7.72999 9.29 8.11999L13.17 12L9.29 15.88C8.9 16.27 8.9 16.9 9.29 17.29C9.68 17.68 
         10.31 17.68 10.7 17.29L15.29 12.7C15.68 12.31 15.68 11.68 15.29 11.29L10.7 6.69999C10.32 6.31999 9.68 6.31999 9.29 6.70999Z"

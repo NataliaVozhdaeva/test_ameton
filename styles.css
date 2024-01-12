@@ -1,0 +1,141 @@
+@font-face {
+  font-family: 'Museo Sans Cyrl';
+  font-style: normal;
+  font-weight: 300;
+  src: local('Roboto'), url('./assets/fonts/museosanscyrl-300.woff2') format('woff2'),
+    url('./assets/fonts/museosanscyrl-300.woff') format('woff'),
+    url('./assets/fonts/museosanscyrl-300.ttf') format('ttf');
+}
+
+@font-face {
+  font-family: 'Museo Sans Cyrl';
+  font-style: normal;
+  font-weight: 500;
+  src: local('Roboto'), url('./assets/fonts/museosanscyrl-500.woff2') format('woff2'),
+    url('./assets/fonts/museosanscyrl-500.woff') format('woff'),
+    url('./assets/fonts/museosanscyrl-500.ttf') format('ttf');
+}
+
+@font-face {
+  font-family: 'Museo Sans Cyrl';
+  font-style: normal;
+  font-weight: 700;
+  src: local('Roboto'), url('./assets/fonts/museosanscyrl-900.woff2') format('woff2'),
+    url('./assets/fonts/museosanscyrl-900.woff') format('woff'),
+    url('./assets/fonts/museosanscyrl-900.ttf') format('ttf');
+}
+
+:root {
+  --main-black: #1a1a1a;
+  --main-green: #36ba5f;
+  --main-blue: #93bbea;
+  --main-white: #fff;
+  --bg-gray: #f9f9f9;
+  --text-gray: #949494;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+.body {
+  max-width: 1280px;
+  margin: auto;
+  padding: 40px;
+
+  font-family: 'Museo Sans Cyrl', 'Arial', sans-serif;
+  font-weight: 500;
+}
+
+.list {
+  display: flex;
+
+  margin: 0;
+  padding: 0;
+
+  list-style: none;
+}
+
+.link {
+  text-decoration: none;
+  color: #000;
+}
+
+.link:visited {
+  color: var(--main-black);
+}
+
+.list-item:hover {
+  cursor: pointer;
+}
+
+.list-item .link {
+  transition: 0.3s;
+}
+
+.list-item:hover .link {
+  color: var(--text-gray);
+}
+
+.title {
+  font-weight: 600;
+}
+
+.text {
+  margin: 0;
+
+  font-weight: 400;
+  line-height: 140%;
+}
+
+.header {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+
+  margin-bottom: 82px;
+  padding: 40px 40px 54px;
+
+  border-radius: 40px;
+  background: url('./assets/bg/planes.png') no-repeat top 37px left, url('./assets/bg/arm.png') no-repeat bottom right;
+  background-color: var(--main-blue);
+}
+
+.header-title {
+  margin: 0 0 4px;
+
+  font-weight: 700;
+  font-size: 60px;
+  line-height: 120%;
+  color: var(--main-white);
+}
+
+.header-text {
+  margin-bottom: 40px;
+  width: 535px;
+
+  font-size: 17px;
+  color: var(--main-white);
+  text-align: center;
+}
+
+.contacts {
+  gap: 8px;
+}
+
+.contacts-item {
+  width: 160px;
+  padding: 15px;
+
+  font-size: 15px;
+
+  background-color: var(--main-white);
+  border-radius: 12px;
+}
+
+.contacts-link {
+  display: flex;
+  gap: 8px;
+  justify-content: center;
+  align-items: center;
+}

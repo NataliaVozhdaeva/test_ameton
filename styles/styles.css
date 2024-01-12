@@ -2,7 +2,7 @@
   font-family: 'Museo Sans Cyrl';
   font-style: normal;
   font-weight: 300;
-  src: local('Roboto'), url('./assets/fonts/museosanscyrl-300.woff2') format('woff2'),
+  src: local('Roboto'), url('../assets/fonts/museosanscyrl-300.woff2') format('woff2'),
     url('./assets/fonts/museosanscyrl-300.woff') format('woff'),
     url('./assets/fonts/museosanscyrl-300.ttf') format('ttf');
 }
@@ -11,7 +11,7 @@
   font-family: 'Museo Sans Cyrl';
   font-style: normal;
   font-weight: 500;
-  src: local('Museo Sans Cyrl'), url('./assets/fonts/museosanscyrl-500.woff2') format('woff2'),
+  src: local('Museo Sans Cyrl'), url('../assets/fonts/museosanscyrl-500.woff2') format('woff2'),
     url('./assets/fonts/museosanscyrl-500.woff') format('woff'),
     url('./assets/fonts/museosanscyrl-500.ttf') format('ttf');
 }
@@ -20,7 +20,7 @@
   font-family: 'Museo Sans Cyrl';
   font-style: normal;
   font-weight: 700;
-  src: local('Museo Sans Cyrl'), url('./assets/fonts/museosanscyrl-700.woff2') format('woff2'),
+  src: local('Museo Sans Cyrl'), url('../assets/fonts/museosanscyrl-700.woff2') format('woff2'),
     url('./assets/fonts/museosanscyrl-700.woff') format('woff'),
     url('./assets/fonts/museosanscyrl-700.ttf') format('ttf');
 }
@@ -29,7 +29,7 @@
   font-family: 'Museo Sans Cyrl';
   font-style: normal;
   font-weight: 900;
-  src: local('Museo Sans Cyrl'), url('./assets/fonts/museosanscyrl-900.woff2') format('woff2'),
+  src: local('Museo Sans Cyrl'), url('../assets/fonts/museosanscyrl-900.woff2') format('woff2'),
     url('./assets/fonts/museosanscyrl-900.woff') format('woff'),
     url('./assets/fonts/museosanscyrl-900.ttf') format('ttf');
 }
@@ -119,7 +119,7 @@
   padding: 40px 40px 54px;
 
   border-radius: 40px;
-  background: url('./assets/bg/planes.png') no-repeat top 37px left, url('./assets/bg/arm.png') no-repeat bottom right;
+  background: url('../assets/bg/planes.png') no-repeat top 37px left, url('../assets/bg/arm.png') no-repeat bottom right;
   background-color: var(--main-blue);
 }
 
@@ -130,6 +130,7 @@
   font-size: 60px;
   line-height: 120%;
   color: var(--main-white);
+  text-align: center;
 }
 
 .header-text {
@@ -143,6 +144,7 @@
 
 .contacts {
   gap: 8px;
+  flex-wrap: wrap;
 }
 
 .contacts-item {

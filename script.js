@@ -1,6 +1,6 @@
 const btnPrev = document.querySelector('.faq-btn_prev');
 const btnNext = document.querySelector('.faq-btn_next');
-const carousel = document.querySelector('.faq');
+const carousel = document.querySelector('.faq-list');
 const carouselItems = document.querySelectorAll('.faq-item');
 
 let position = 0;

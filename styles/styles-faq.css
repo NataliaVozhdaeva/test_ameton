@@ -1,0 +1,76 @@
+.body {
+  padding: 22px 40px;
+}
+
+.faqPage-btn:hover svg {
+  filter: opacity(50%);
+}
+
+.faqPage-top {
+  display: flex;
+  margin-bottom: 17px;
+  align-items: center;
+}
+
+.faqPage-title {
+  margin-right: 7px;
+
+  font-size: 24px;
+  font-weight: 900;
+}
+
+.faqPage-top svg {
+  color: var(--main-green);
+}
+
+.faqPage-content {
+  max-width: 690px;
+  margin-bottom: 38px;
+}
+
+.faqPage-text {
+  font-weight: 400;
+  font-size: 15px;
+}
+
+.faqPage-text_support {
+  margin-bottom: 16px;
+
+  font-size: 13px;
+  font-style: normal;
+  font-weight: 600;
+}
+
+.faqPage-chatLink {
+  width: 224px;
+
+  color: var(--main-white);
+
+  background-color: var(--main-green);
+}
+
+.faqPage-chatLink:hover svg,
+.faqPage-chatLink:hover .link {
+  color: var(--main-black);
+}
+
+.faqPage-callLink,
+.faqPage-mailLink {
+  width: 48px;
+  height: 48px;
+
+  background-color: var(--bg-gray);
+}
+
+.faqPage-callLink svg,
+.faqPage-mailLink svg {
+  color: var(--main-green);
+}
+
+.contacts-link:visited {
+  color: var(--main-white);
+}
+
+.contacts-item:hover {
+  filter: brightness(90%);
+}

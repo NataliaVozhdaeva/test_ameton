@@ -10,7 +10,7 @@
 
 .css-container input {
   position: absolute;
-  bottom: 70px;
+  bottom: calc(50% - 7px);
 
   display: block;
   width: 18px;
@@ -30,4 +30,6 @@
 
 .css-container input:checked + .faq-list {
   display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
 }

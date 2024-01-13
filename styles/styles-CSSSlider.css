@@ -1,0 +1,33 @@
+.css-container {
+  position: relative;
+
+  display: flex;
+}
+
+.faq-list {
+  display: none;
+}
+
+.css-container input {
+  position: absolute;
+  bottom: 70px;
+
+  display: block;
+  width: 18px;
+  height: 18px;
+
+  cursor: pointer;
+}
+
+#radio1 {
+  z-index: 2;
+  left: 0;
+}
+
+#radio2 {
+  right: 0;
+}
+
+.css-container input:checked + .faq-list {
+  display: flex;
+}

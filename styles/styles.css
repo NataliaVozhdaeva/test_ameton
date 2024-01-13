@@ -143,8 +143,8 @@
 }
 
 .contacts {
-  gap: 8px;
   flex-wrap: wrap;
+  margin-bottom: -8px;
 }
 
 .contacts-item {
@@ -160,6 +160,10 @@
 .contacts-item:not(:last-child) {
   margin-bottom: 8px;
   margin-right: 8px;
+}
+
+.contacts-item:last-child {
+  max-height: 48px;
 }
 
 .contacts-link {

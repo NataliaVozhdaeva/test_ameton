@@ -157,6 +157,11 @@
   border-radius: 12px;
 }
 
+.contacts-item:not(:last-child) {
+  margin-bottom: 8px;
+  margin-right: 8px;
+}
+
 .contacts-link {
   gap: 8px;
   justify-content: center;
@@ -358,6 +363,10 @@
 
 .summary {
   list-style: none;
+}
+
+.summary::-webkit-details-marker {
+  display: none;
 }
 
 .reference-text {

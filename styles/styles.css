@@ -325,10 +325,6 @@
   transform: rotate(180deg);
 }
 
-.reference {
-  margin-bottom: 80px;
-}
-
 .reference-list {
   max-width: 996px;
   margin: auto;
@@ -383,4 +379,8 @@
   font-weight: 500;
   line-height: 140%;
   color: var(--text-gray);
+}
+
+.footer {
+  margin-bottom: 80px;
 }

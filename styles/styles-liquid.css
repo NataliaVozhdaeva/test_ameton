@@ -49,4 +49,12 @@
     max-width: 90%;
     margin-right: auto;
   }
+
+  .faqPage-contacts {
+    justify-content: center;
+  }
+
+  .faqPage-title {
+    margin-bottom: 8px;
+  }
 }
